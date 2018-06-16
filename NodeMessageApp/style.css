@@ -1,0 +1,36 @@
+textarea {
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    display: block;
+    height: 100px;  
+   
+}
+
+#sub{
+    margin-top:20px;
+    margin-left:530px;
+    width: 20%;
+    padding: 10px;
+    display: block;
+    
+    
+}
+h1,h3{
+    text-align:center;
+}
+
+.display-box{
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    display: block;
+    background: cornsilk;
+    height: 100px;  
+   
+}
+
+#user{
+    margin-left: 340px;
+    position: relative;
+}

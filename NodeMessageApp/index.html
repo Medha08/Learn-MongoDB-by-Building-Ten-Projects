@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Node Message App</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name ="viewport" content="width=device-width,initial-scale=1.0">
+       
+    </head>
+    <body>
+        <form action="/displaynew" method="post">
+            <h1>Message and See</h1>
+            <input type="text" id="user" name="usr" placeholder="Enter Your Name..">
+            <br>
+            <textarea id="message" name="msgText" placeholder="Write Something Here....."></textarea>
+            <input type="submit" id="sub" >
+        </form>
+
+        <br>
+        <h3>Display Box</h3>
+        <div class="display-box">
+           <p id="user-name"></p>
+            <p id="user-msg"></p>
+        </div>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
